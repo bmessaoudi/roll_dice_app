@@ -14,12 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.purple,
-        body: GradientContainer(
-          colors: [
-            Color.fromRGBO(103, 58, 183, 1),
-            Color.fromRGBO(49, 20, 100, 1),
-          ],
-        ),
+        body: GradientContainer.purple(),
       ),
     );
   }
